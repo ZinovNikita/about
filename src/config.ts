@@ -32,39 +32,60 @@ export default {
   description: 'Начиная с 2014 года я занимаюсь разработкой и сопровождением веб-приложений в банковской сфере, анализом и внедрением бизнес-процессов. Продолжаю развиваться в сфере разработки...',
   experience: [
     {
-      "type": "job",
-      "period": "2023 - по н.в.",
-      "сompany": "Интеллектуальные программные решения",
-      "title": "Главный разработчик",
-      "responsibilities": [
+      type: "job",
+      period: "2024 - по н.в.",
+      сompany: "БАНК УРАЛСИБ",
+      title: "Релиз-менеджер",
+      responsibilities: [
+        "Релиз-менеджер",
+        "Менеджер сервиса",
+        "Проверка доработок, внедрение их на боевую среду",
+        "Выявление проблем",
+        "Устранение аварий",
+        "Планирвоание релизов"
+      ],
+      tags: ["Vuejs","Ruby on Rails","PostgreSQL", "Ant Design", "Kubernetes"],
+      links: [{to: 'https://www.uralsib.ru/', text: 'Банк УРАЛСИБ'}]
+    },
+    {
+      type: "job",
+      period: "2023 - 2024",
+      сompany: "Интеллектуальные программные решения",
+      title: "Главный разработчик",
+      responsibilities: [
         "Frontend + Backend + DevOps",
         "Поддержка и доработка реализованных ранее для Банка Уралсиб систем",
         "Доработка и сопровождение Производственной системы, в которой ведется работа разработчиков, учет трудозатрат, сметы для взаиморасчетов с заказчиками"
       ],
-      "tags": ["Vuejs","Ruby on Rails","PostgreSQL", "Ant Design", "Kubernetes"],
-      "links": [{to: 'https://www.smartsoftware.ru/', text: 'Smart Software Solutions'}]
+      results: [
+        "Выстроен процесс взаимодействия с заказчиком",
+        "Проведено обчение новых сотрудников по передачи части функционала",
+        "Выстроен процесс документирования и код-ревью"
+      ],
+      tags: ["Vuejs","Ruby on Rails","PostgreSQL", "Ant Design", "Kubernetes"],
+      links: [{to: 'https://www.smartsoftware.ru/', text: 'Smart Software Solutions'}]
     },
     {
-      "type": "learn",
-      "period": "2022 - 2023",
-      "сompany": "Яндекс Практикум",
-      "title": "Мидл фронтенд-разработчик",
-      "responsibilities": [
+      type: "learn",
+      period: "2022 - 2023",
+      сompany: "Яндекс Практикум",
+      title: "Мидл фронтенд-разработчик",
+      responsibilities: [
         "Проект «Веб-мессенджер»",
         "Командный проект - выполнял роль лидера команды",
         "Алгоритмы и структуры данных"
       ],
-      "tags": ["TypeScript","Webpack","Parcel","React","Web API","Canvas API","CI / CD","Yandex Cloud",
+      tags: ["TypeScript","Webpack","Parcel","React","Web API","Canvas API","CI / CD","Yandex Cloud",
         "React-router","Nginx","WebSocket","PostgreSQL","Server Side Rendering","Docker","Jest"],
-        "links": [{to: 'https://practicum.yandex.ru/middle-frontend/', text: 'Описание курса'}]
+        links: [{to: 'https://practicum.yandex.ru/middle-frontend/', text: 'Описание курса'}]
         
     },
     {
-      "type": "job",
-      "period": "2017 - 2023",
-      "сompany": "БАНК УРАЛСИБ",
-      "title": "Главный разработчик",
-      "responsibilities": [
+      type: "job",
+      period: "2017 - 2023",
+      сompany: "БАНК УРАЛСИБ",
+      title: "Главный разработчик",
+      responsibilities: [
         "Frontend + Backend + DevOps",
         "Разработка портала управление ИТ-услугами (ITSM) и Service Desk",
         "Разработка системы управления проектами",
@@ -72,47 +93,47 @@ export default {
         "Организация интеграций c другими системами банка",
         "Формирование отчетности на основе данных системы"
       ],
-      "results": [
+      results: [
         "Масштабирование с портала оформления заявок Service Desk, до полноценного портала ITSM",
         "Внедрение механизма ведения проектов ИТ - работ, трудозатрат, смет, планирование итд",
         "Создание инструмента описания практически любого бизнес-процесса банка"
       ],
-      "tags": ["Vue JS","Ruby on Rails","Oracle", "My SQL", "Bootstrap Vue", "Gitlab", "Docker"],
-      "links": [{to: 'https://www.uralsib.ru/', text: 'Банк УРАЛСИБ'}]
+      tags: ["Vue JS","Ruby on Rails","Oracle", "My SQL", "Bootstrap Vue", "Gitlab", "Docker"],
+      links: [{to: 'https://www.uralsib.ru/', text: 'Банк УРАЛСИБ'}]
     },
     {
-      "type": "learn",
-      "period": "2014 - 2018",
-      "сompany": "УГАТУ",
-      "title": "Факультет информатики и робототехники",
-      "responsibilities":[
+      type: "learn",
+      period: "2014 - 2018",
+      сompany: "УГАТУ",
+      title: "Факультет информатики и робототехники",
+      responsibilities:[
         "Анализ бизнес-процессов",
         "Разработка проектов автоматизации процессов",
         "Создание информационных систем в прикладных областях",
         "Управление проектами информатизации"
       ],
-      "tags": ["09.03.03 Прикладная информатика", "Анализ данных", "C#", "Java", "ООП", "Базы данных"],
-      "links": [{to: 'https://ugatu.su/', text: 'УГАТУ'}]
+      tags: ["09.03.03 Прикладная информатика", "Анализ данных", "C#", "Java", "ООП", "Базы данных"],
+      links: [{to: 'https://ugatu.su/', text: 'УГАТУ'}]
     },
     {
-      "type": "job",
-      "period": "2014 - 2017",
-      "сompany": "БАНК УРАЛСИБ",
-      "title": "Ведущий специалист",
-      "responsibilities": [
+      type: "job",
+      period: "2014 - 2017",
+      сompany: "БАНК УРАЛСИБ",
+      title: "Ведущий специалист",
+      responsibilities: [
         "Поддержка и развитие системы для обслуживания эквайрингового оборудования клиентов банка",
         "Работа с заявками пользователей",
         "Устранение неисправностей в работе ИС",
         "Выявление недостач и излишков по обращению клиентов банка по логам банкоматов и банковских терминалов"
       ],
-      "results": [
+      results: [
         "Масштабирование системы с региона, на федеральный округ",
         "Реализована возможность формирования отчетности по данным системы",
         "Сформированы организационные правила по контролю версий",
         "Настроено информирование администраторов о возникших ошибках"
       ],
-      "tags": ["IIS","VBScript","MS SQL","JavaScript"],
-      "links": [{to: 'https://www.uralsib.ru/', text: 'Банк УРАЛСИБ'}]
+      tags: ["IIS","VBScript","MS SQL","JavaScript"],
+      links: [{to: 'https://www.uralsib.ru/', text: 'Банк УРАЛСИБ'}]
     }
   ],
   contacts: [{
